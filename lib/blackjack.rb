@@ -42,9 +42,9 @@ def hit?
 end
 
 def invalid_command
-  deal_card
-  deal_card
-  
+   puts "Please enter a valid command"
+  prompt_user
+  get_user_input
 end
 
 #####################################################
