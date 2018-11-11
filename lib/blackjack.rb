@@ -19,7 +19,10 @@ def get_user_input
   answer = gets.chomp
   if answer == 'h'
     deal_card
-  else answer == 's'
+  elsif answer == 's'
+  
+else 
+    
 end
 
 def end_game(number)
