@@ -17,7 +17,9 @@ end
 
 def get_user_input
   answer = gets.chomp
-  if
+  if answer == 'h'
+    
+  else answer == 's'
 end
 
 def end_game(number)
