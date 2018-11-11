@@ -32,7 +32,7 @@ end
 
 def hit?
   prompt_user
-  user_input = gets.chomp
+  user_input = get_user_input
   if user_input == "h"
     card_total += deal_card
   elsif user_input == "s"
@@ -42,7 +42,7 @@ def hit?
 end
 
 def invalid_command
-   puts "Please enter a valid command"
+   puts "Please enter a valid command."
   prompt_user
   get_user_input
 end
