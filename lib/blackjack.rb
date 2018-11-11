@@ -15,13 +15,7 @@ def prompt_user
 end
 
 def get_user_input
-  answer = gets.chomp
-  if answer == 'h'
-    deal_card
-  elsif answer == 's'
-  
-  else 
-    puts "Please enter a valid command."
+  user_input = gets.chomp
 end
 
 def end_game(number)
