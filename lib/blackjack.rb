@@ -21,8 +21,8 @@ def get_user_input
     deal_card
   elsif answer == 's'
   
-else 
-    
+  else 
+    puts "Please enter a valid command."
 end
 
 def end_game(number)
