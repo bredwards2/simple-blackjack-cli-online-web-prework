@@ -18,7 +18,7 @@ end
 def get_user_input
   answer = gets.chomp
   if answer == 'h'
-    
+    deal_card
   else answer == 's'
 end
 
